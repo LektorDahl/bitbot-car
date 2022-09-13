@@ -45,6 +45,7 @@ radio.onReceivedString(function (receivedString) {
         bitbot.stop(BBStopMode.Brake)
         for (let index = 0; index < 4; index++) {
             basic.showIcon(IconNames.No)
+            bitbot.ledRainbow()
         }
     }
 })
